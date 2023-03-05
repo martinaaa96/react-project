@@ -3,10 +3,11 @@ import Calculator from "./components/Calculator";
 
 function App() {
   return (
-    <>
-    
-    <Calculator/>
-    </>
+    <div>
+      <h1>Welcome to my app</h1>
+      <Calculator/>
+      <p>Some text</p>
+    </div>
   );
 }
 
