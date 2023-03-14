@@ -10,12 +10,15 @@ export default function Buttons(){
         <button className={style["calculator__key"]}>4</button>
         <button className={style["calculator__key"]}>5</button>
         <button className={style["calculator__key"]}>6</button>
+        
         <button className={style["calculator__key"]}>1</button>
         <button className={style["calculator__key"]}>2</button>
         <button className={style["calculator__key"]}>3</button>
         <button className={style["calculator__key"]}>0</button>
+       
         <button className={style["calculator__key"]}>.</button>
         <button className={style["calculator__key"]}>AC</button>
+        <button className={style["calculator__key--enter"]}>=</button>
         </>
     )
 }

@@ -6,7 +6,7 @@ function App() {
     <div>
       <h1>Welcome to my app</h1>
       <Calculator/>
-      <p>Some text</p>
+     
     </div>
   );
 }
