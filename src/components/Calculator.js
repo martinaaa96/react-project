@@ -8,13 +8,13 @@ export default function Calculator(){
   const handleClick = (e)=>{
 setResult(result.concat(e.target.name));
 
-const clear = ()=>{
 
-}
-
-const backspace = ()=>{
+  }
+  const clear = ()=>{
+setResult("")
+  }
+  const backspace = ()=>{
   
-}
   }
  
     return (
@@ -40,7 +40,7 @@ const backspace = ()=>{
 <button name="+" onClick={handleClick}>+</button>
 <button name="0" onClick={handleClick}>0</button>
 <button name="." onClick={handleClick}>.</button>
-<button onClick={handleClick}>=</button>
+<button onClick={handleClick} id="result">=</button>
 
 </div>
         </div>
