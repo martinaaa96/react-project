@@ -11,7 +11,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.name h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  background-image: linear-gradient(to left, #A52A2A,#CD853F);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 .container {
   top: 50%;
   left: 50%;
@@ -20,8 +28,8 @@ body {
   margin: 0 auto;
   width: 256px;
   text-align: center;
-  border: 10px solid #101116;
-  background: #101116;
+  border: 10px solid #DEB887;
+  background: #DEB887;
   border-radius: 5px;
 }
 
@@ -66,8 +74,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background: #262834;
-  color: #ffffff;
+  background: #FFF8DC;
+  color: #262834;
   font-weight: 500;
 }
 
@@ -80,5 +88,5 @@ outline: none;
 
 }
 .hightlight {
-  background: #56cbdb;
+  background: #FFF8DC;
 }
